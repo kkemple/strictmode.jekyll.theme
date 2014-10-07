@@ -9,4 +9,8 @@ A minimalistic blogging theme that is easy to read on all screen sizes, and no d
 - No ads or sidebar (but you can easily integrate one)
 - Disqus integration (just add your forum name in `_layouts/post.html`)
 
+___
+
+
 ![example](http://g.recordit.co/9E6eBGJ1wU.gif)
+
