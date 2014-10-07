@@ -1,0 +1,38 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+      <ul class="contact-list">
+        <li>
+          <span><i class="fa fa-envelope"></i> </span>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </li>
+        <li>
+          <span><i class="fa fa-github"></i> </span>
+          <a href="https://github.com/{{ site.github_username }}">
+            <span class="username">{{ site.github_username }}</span>
+          </a>
+        </li>
+        <li>
+          <span><i class="fa fa-twitter"></i> </span>
+          <a href="https://twitter.com/{{ site.twitter_username }}">
+            <span class="username">{{ site.twitter_username }}</span>
+          </a>
+        </li>
+      </ul>
+
+      <p class="text">{{ site.description }}</p>
+
+    <p class="copyright">Copyright &copy; {{ site.author_name }} 2014</p>
+
+  </div>
+
+</footer>
+
+<script src="{{ "/js/requires/prism.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/requires/lunr.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/requires/jquery-1.11.1.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/requires/scotchpanels.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/requires/underscore.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/requires/backbone.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
